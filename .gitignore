@@ -1,0 +1,79 @@
+# Python bytecode and build artifacts
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# Jupyter Notebook checkpoints and outputs
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Data, models, and results
+data/
+datasets/
+models/
+results/
+*.h5
+*.pkl
+*.joblib
+*.ckpt
+*.csv
+*.tsv
+*.parquet
+*.db
+*.sqlite
+*.npz
+*.npy
+
+# Logs and outputs
+logs/
+*.log
+*.out
+*.err
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/project files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# MLflow, WandB, TensorBoard
+mlruns/
+wandb/
+runs/
+tb_logs/
+
+# Test, coverage, and profiling
+.coverage
+.cache/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.pyc
+*.pyo
+*.pyd
+
+# Backup and swap files
+*.bak
+*.swp
+*.tmp
+*.temp
