@@ -1,0 +1,45 @@
+{
+  "all_features": [
+    "MedInc",
+    "HouseAge",
+    "AveRooms",
+    "AveBedrms",
+    "Population",
+    "AveOccup",
+    "Latitude",
+    "Longitude",
+    "rooms_per_household",
+    "bedrooms_per_room",
+    "population_per_household",
+    "income_per_room",
+    "coastal_area",
+    "distance_from_center",
+    "high_density_area",
+    "income_x_rooms",
+    "longitude_x_income",
+    "age_x_rooms"
+  ],
+  "original_features": [
+    "MedInc",
+    "HouseAge",
+    "AveRooms",
+    "AveBedrms",
+    "Population",
+    "AveOccup",
+    "Latitude",
+    "Longitude"
+  ],
+  "engineered_features": [
+    "rooms_per_household",
+    "bedrooms_per_room",
+    "population_per_household",
+    "income_per_room",
+    "coastal_area",
+    "distance_from_center",
+    "high_density_area",
+    "income_x_rooms",
+    "longitude_x_income",
+    "age_x_rooms"
+  ],
+  "feature_count": 18
+}
